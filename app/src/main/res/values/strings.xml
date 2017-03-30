@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">Key Backup</string>
+    <string name="dbinspector_app_name">Backup Database</string>
+
+    <string name="onboarding_next">Next</string>
+    <string name="onboarding_get_started">Get started</string>
+    <string name="onboarding_headline_backup">Backup secrets securely</string>
+    <string name="onboarding_subhead_backup">Never lose access to your accounts and services.</string>
+    <string name="onboarding_headline_key_created">Lock secrets</string>
+    <string name="onboarding_subhead_key_created">Your secrets will be locked into a box. Each box can be distributed without hesitation since only the box-key can open it.</string>
+    <string name="onboarding_headline_share">Share</string>
+    <string name="onboarding_subhead_share">You own a box-key which matches to all boxes. It will be split like a puzzle and your friends will get one part each.</string>
+    <string name="onboarding_headline_restore">Restore</string>
+    <string name="onboarding_subhead_restore">When you want to restore a secret the box-key is needed. The majority of the parts of the puzzle is sufficient to open a box.</string>
+
+    <string name="action_restore">Restore backup from other device</string>
+    <string name="action_help">Help</string>
+    <string name="action_licenses">Open source licenses</string>
+
+    <string name="overview_backups_empty">You have not backed up any secrets yet. Please tap the button in the right lower corner to do so.\n\nThere are lots of secrets you could backup, for example:\n
+            &#8226; Keys of your Email or Bitcoin account\n
+            &#8226; SSH Keys\n
+            &#8226; Key of an encrypted file directory</string>
+    <string name="overview_secret_parts_empty">Your friends can send you a key part. Just tap the button in the right lower corner to scan one.</string>
+
+    <string name="dialog_cancel">Cancel</string>
+    <string name="dialog_ok">OK</string>
+
+    <string name="email">E-Mail</string>
+    <string name="qr_code">QR Code</string>
+    <string name="print_qr_code">Print QR Code</string>
+
+    <string name="email_address">E-Mail address</string>
+
+    <string name="secret_part_transfer_error">Scanned QR Code is not a key part or it is a key part of another person or a backup</string>
+    <string name="secret_part_transfer_error_title">Scanned QR Code is no foreign key part.</string>
+    <string name="secret_part_transferred_success">Successfully transferred key part from %1$s</string>
+
+    <string name="main_tab_todo">TODO</string>
+    <string name="main_tab_backups">Backups</string>
+    <string name="main_tab_key_parts">Key parts</string>
+
+    <string name="dialog_create_backup_title">New Backup</string>
+    <string name="dialog_share_key_title">Share parts of your key</string>
+
+    <string name="dialog_restore_backup_title">Restore %1$s</string>
+    <string name="dialog_restore_wrong_secret">This QR-Code is not a box or it cannot be opened with the restored key.</string>
+
+    <string name="stepper_backup_name_description">Enter a name to find this backup again later.</string>
+    <string name="stepper_backup_name_hint">Name</string>
+    <string name="stepper_import_secret_store_method_print">Scan the QR-Code of your printed backup.</string>
+    <string name="stepper_import_secret_store_method_email">Scan the QR-Code you sent via E-Mail.</string>
+    <string name="stepper_import_secret_keyboard">Or enter it here:</string>
+    <string name="stepper_import_secret_hint">Secret</string>
+    <string name="stepper_import_secret_show">Your imported secret:</string>
+    <string name="stepper_minimum_parts_description">How many key parts should be needed to restore a backup?</string>
+    <string name="stepper_minimum_parts_error">At least %1$d key parts must be chosen.</string>
+    <string name="stepper_total_parts_description">How many persons would you like to send a part of your key?</string>
+    <string name="stepper_total_parts_error">Key parts needed to restore a backup cannot be greater than the count of persons that should receive a key part.</string>
+    <string name="stepper_collect_shares_description">You need to collect the key parts of your key to reveal your backup.</string>
+    <string name="stepper_collect_shares_button">Show contacts</string>
+
+    <string name="stepper_user_name_description">You will send key parts to your friends later. When you want them back the name will help your friends to identify the key parts that belong to you.</string>
+    <string name="stepper_user_name_hint">Your name</string>
+
+    <string name="stepper_subtitle_optional">Optional</string>
+
+    <string name="step_minimum_parts">5</string>
+    <string name="step_total_parts">10</string>
+
+    <string name="stepper_last_step_backup_title">Export encrypted backup</string>
+    <string name="stepper_last_step_backup_second_button">Print</string>
+    <string name="stepper_last_step_key_title">Share key parts</string>
+    <string name="stepper_last_step_key_second_button">Choose contacts</string>
+    <string name="stepper_last_step_collect_shares_title">Export secret</string>
+    <string name="stepper_last_step_collect_shares_button">Show Qr Code</string>
+    <string name="stepper_last_step_collect_shares_second_button">Show as Text</string>
+    <string name="stepper_last_step_button">Later</string>
+    <string name="stepper_last_step_button_cloud">Save to Cloud</string>
+
+    <string name="dialog_step_enter_name">Enter your name</string>
+
+    <string name="create_backup_message">Attention: Before you can create a backup you need to split your key.</string>
+    <string name="create_backup_qr_code_error">Unfortunately the restored backup is too large.</string>
+
+    <string name="card_setup_key_headline">Distribute your key</string>
+    <string name="card_setup_key_description">Share pieces of the key needed to recover your backups later. This guarantees that you can restore your secrets event when you lost this phone and that nobody can reveal your secrets by stealing your phone.</string>
+    <string name="card_setup_key_setup">Setup</string>
+
+    <string name="card_share_key_headline">Share your key parts</string>
+    <string name="card_share_key_description">You have already split your key into multiple pieces. They need to be sent to friends. There are %1$d parts left to send.</string>
+    <string name="card_share_key_progress_description">Sent key parts: %1$d / %2$d</string>
+    <string name="card_share_key_start">Share key parts</string>
+
+    <string name="card_help_backup_headline">Create your first backup</string>
+    <string name="card_help_backup_description">Start storing secrets like passwords or keys from an encrypted hard drive. Scroll left to see an overview of your backups and add a new one.</string>
+
+    <string name="card_warning_headline">Attention</string>
+    <string name="card_warning_description">There are enough key parts stored on this device to restore your key. If you loose your phone, your boxes can also be opened by a thief. Distribute more key parts!</string>
+
+    <string name="card_contact_headline_backup">Give %1$s a copy of your backup</string>
+    <string name="card_contact_subtitle">Send a key part to %1$s.</string>
+    <string name="card_contact_subtitle_qr">Send a key part to %1$s via QR Code.</string>
+    <string name="card_contact_subtitle_print">You printed a QR Code with a key part for %1$s. Did this person receive the paper?</string>
+    <string name="card_contact_subtitle_email">You sent %1$s an E-Mail with a key part. Did this person receive it?</string>
+    <string name="card_contact_show_qr_code">Show</string>
+    <string name="card_contact_more">More</string>
+    <string name="card_contact_positive_button">Yes</string>
+
+    <string name="card_backup_print_description">Recently you created the backup \"%1$s\". Do you want to print or send it again?</string>
+    <string name="card_backup_print_button">Print</string>
+    <string name="card_backup_email_button">Send E-Mail</string>
+    <string name="card_backup_cloud_button">Save to cloud</string>
+
+    <string name="contact_chooser_share_parts_title">Choose contacts</string>
+    <string name="contact_chooser_collect_parts_title">Collect key parts</string>
+    <string name="contact_chooser_share_parts_description_full">You have chosen contacts for every part of your key. You can still select another contact for a key part if the currently chosen person has not received it yet.</string>
+    <string name="contact_chooser_share_parts_add_item_description">Add a contact</string>
+    <string name="contact_chooser_share_parts_add_item_hint">Name</string>
+
+    <string name="contact_list_header_none">None</string>
+    <string name="contact_list_header_contacts">Contacts</string>
+
+    <plurals name="contact_chooser_share_parts_description">
+        <item quantity="one">Who should receive a part of your key? Never send multiple parts to the same person! There is %1$d part left to send.</item>
+        <item quantity="other">Who should receive a part of your key? Never send multiple parts to the same person! There are %1$d parts left to send.</item>
+    </plurals>
+
+    <plurals name="contact_chooser_receive_parts_description">
+        <item quantity="one">You need to collect %1$d more key part. Scan a QR Code from a device of that person, from an E-Mail you sent or from a paper.</item>
+        <item quantity="other">You need to collect %1$d more key parts. Scan a QR Code from a device of that person, from an E-Mail you sent or from a paper.</item>
+    </plurals>
+
+    <string name="dialog_send_method_title">How should the key part be sent?</string>
+    <string name="dialog_change_send_method_title">Selected send method: %1$s</string>
+    <string name="dialog_change_send_method_send">Send</string>
+    <string name="dialog_change_send_method_show_qr">Show QR Code</string>
+    <string name="dialog_change_send_method_show_print">Print QR Code</string>
+    <string name="dialog_change_send_method_show_email">Send E-Mail</string>
+    <string name="dialog_change_send_method_change_qr">Change to QR Code</string>
+    <string name="dialog_change_send_method_change_print">Change to print QR Code</string>
+    <string name="dialog_change_send_method_change_email">Change to send an E-Mail</string>
+    <string name="dialog_change_send_method_later">Select later.</string>
+    <string name="dialog_change_send_method_deselect">Deselect contact</string>
+
+    <string name="contact_list_header_receive_qr">Device</string>
+    <string name="contact_list_header_receive_email">E-Mail</string>
+    <string name="contact_list_header_receive_print">Paper</string>
+
+    <string name="qr_fragment_title_key_part">QR Code of a key part</string>
+    <string name="qr_fragment_title">QR Code</string>
+    <string name="qr_fragment_title_restored_text">Restored Backup</string>
+    <string name="qr_fragment_description">Show %1$s this QR Code:</string>
+    <string name="qr_fragment_description_restored">This QR Code contains your restored backup.</string>
+    <string name="qr_fragment_description_restored_text">This is your restored backup.</string>
+    <string name="qr_fragment_description_restored_error">Unfortunately the QR Code cannot be displayed.</string>
+    <string name="qr_fragment_transferred">Transferred successfully</string>
+    <string name="qr_fragment_transfer_later">Transfer later</string>
+
+    <string name="qr_reader_title">Scan a QR Code</string>
+
+
+    <string name="snackbar_message_cloud">Secret is stored successfully encrypted in cloud.</string>
+    <string name="snackbar_message_qrscan">You scanned successfully a secret as QR code.</string>
+
+    <string name="dialog_intent_create_backup_title">Create Backup</string>
+    <string name="dialog_intent_create_backup_description">A new backup of your secret will be created. This backup is encrypted and will be stored in the cloud. Enter a name for this secret:</string>
+    <string name="dialog_intent_create_backup_hint">A new backup of your secret will be created. This backup is encrypted and will be stored in the cloud. Enter a name for this secret:</string>
+</resources>

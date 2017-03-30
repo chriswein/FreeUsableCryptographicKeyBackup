@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/horizontal_margin"
+    android:paddingRight="@dimen/horizontal_margin"
+    android:paddingTop="@dimen/onboarding_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".onboarding.OnboardingActivity">
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <ImageView
+        android:id="@+id/onboarding_image"
+        android:layout_width="@dimen/onboarding_image_size"
+        android:layout_height="@dimen/onboarding_image_size"
+        android:layout_gravity="center"
+        android:paddingBottom="@dimen/onboarding_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:adjustViewBounds="true" />
+
+    <android.support.v4.widget.Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/onboarding_headline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:paddingBottom="@dimen/onboarding_text_padding_vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:textSize="@dimen/onboarding_headline_size"
+        android:textColor="@android:color/white"/>
+
+    <TextView
+        android:id="@+id/onboarding_subhead"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/onboarding_subhead_height"
+        android:gravity="center_horizontal"
+        android:paddingBottom="@dimen/onboarding_text_padding_vertical"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:textSize="@dimen/onboarding_subhead_size"
+        android:lineSpacingExtra="@dimen/onboarding_line_spacing"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>

@@ -1,0 +1,43 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.NoActionBarDrawer" parent="AppTheme.NoActionBar" />
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.Dialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="DescriptionText" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/activity_horizontal_margin</item>
+        <item name="android:lineSpacingExtra">@dimen/style_description_text_line_spacing</item>
+    </style>
+
+    <style name="ListHeader">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_header_height</item>
+        <item name="android:paddingLeft">@dimen/list_header_padding_left</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textSize">@dimen/list_header_text_size</item>
+        <item name="android:fontFamily">@string/font_fontFamily_medium</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:color">@android:color/darker_gray</item>
+    </style>
+</resources>

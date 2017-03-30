@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dialog_content_area_padding"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dialog_button_headline_size"
+            android:textStyle="bold"
+            android:text="@string/dialog_intent_create_backup_title"
+            android:paddingBottom="@dimen/dialog_title_padding_vertical"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_intent_create_backup_description"
+            android:paddingBottom="@dimen/dialog_content_items_padding"/>
+
+        <EditText
+            android:id="@+id/activity_backup_dialog_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/stepper_backup_name_hint"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dialog_button_area_padding"
+        android:gravity="end"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/activity_backup_dialog_cancel"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dialog_button_height"
+            android:minWidth="@dimen/dialog_button_min_width"
+            android:paddingRight="@dimen/button_padding"
+            android:gravity="center"
+            android:text="@string/dialog_cancel"/>
+
+        <Button
+            android:id="@+id/activity_backup_dialog_ok"
+            style="@style/Widget.AppCompat.Button.Borderless.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/dialog_button_height"
+            android:minWidth="@dimen/dialog_button_min_width"
+            android:paddingRight="@dimen/button_padding"
+            android:gravity="center"
+            android:text="@string/dialog_ok"/>
+
+    </LinearLayout>
+
+</LinearLayout>

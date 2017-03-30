@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager_view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <Button
+        android:id="@+id/pager_button_get_started"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/onboarding_next"/>
+
+    <com.viewpagerindicator.CirclePageIndicator
+        android:id="@+id/pager_indicator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:paddingBottom="@dimen/onboarding_indicator_padding_vertical"
+        android:paddingTop="@dimen/onboarding_indicator_padding_vertical"
+        app:radius="@dimen/onboarding_indicator_size"
+        app:fillColor="@color/indicator_selected"
+        app:pageColor="@color/indicator"
+        app:strokeWidth="0dp" />
+</LinearLayout>

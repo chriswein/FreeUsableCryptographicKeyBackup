@@ -1,0 +1,3 @@
+[submodule "SecureKeyBackupAndroid"]
+	path = SecureKeyBackupAndroid
+	url = git@github.com:tobiasschuelke/SecureKeyBackupAndroid.git

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="create_dialog_stepper_titles">
+        <item>Name der Sicherung</item>
+        <item>Scanne ein Geheimnis </item>
+    </array>
+
+    <array name="create_dialog_stepper_titles_private_key">
+        <item>Anzahl der Schlüsselteile</item>
+    </array>
+
+    <array name="restore_backup_stepper_titles">
+        <item>Sammle Schlüsselteile</item>
+        <item>Scann eine Sicherung</item>
+    </array>
+
+</resources>

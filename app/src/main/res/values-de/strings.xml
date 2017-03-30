@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="action_help">Hilfe</string>
+    <string name="action_licenses">Open-Source Lizenzen</string>
+    <string name="action_restore">Sicherung von anderem Gerät aus wiederherstellen</string>
+
+    <string name="card_backup_email_button">E-Mail senden</string>
+    <string name="card_backup_cloud_button">In Cloud speichern</string>
+    <string name="card_backup_print_button">Drucken</string>
+    <string name="card_backup_print_description">Vor kurzem wurde die Sicherung \"%1$s\" angelegt. Möchtest du sie nochmal drucken oder senden?</string>
+
+    <string name="card_contact_headline_backup">Gib %1$s eine Kopie deiner Sicherung</string>
+    <string name="card_contact_more">Mehr</string>
+    <string name="card_contact_positive_button">Ja</string>
+    <string name="card_contact_show_qr_code">Anzeigen</string>
+    <string name="card_contact_subtitle_email">Du hast %1$s eine E-Mail mit einem Teilschlüssel gesendet. Hat die Person diesen erhalten?</string>
+    <string name="card_contact_subtitle_print">Du hast einen QR-Code mit einem Teilschlüssel für %1$s ausgedruckt. Hat die Person den Ausdruck erhalten?</string>
+    <string name="card_contact_subtitle_qr">Übergebe %1$s einen Teilschlüssel per QR-Code.</string>
+
+    <string name="card_help_backup_description">Beginne Geheimnisse, wie zum Beispiel Passwörter oder Schlüssel von einer verschlüsselten Festplatte, zu sichern. Wische nach links, um eine Übersicht deiner Sicherungen zu sehen und eine neue hinzuzufügen.</string>
+    <string name="card_help_backup_headline">Erstelle deine erste Sicherung</string>
+
+    <string name="card_setup_key_headline">Verteile deinen Kistenschlüssel</string>
+    <string name="card_setup_key_description">Verteile Teile deines Kistenschlüssels, die später zum Wiederherstellen deiner Sicherungen ohne dein Smartphone benötigt werden. Diebe und andere können nicht die Sicherungen mit deinem Smartphone herstellen. </string>
+    <string name="card_setup_key_setup">Start</string>
+
+    <string name="card_share_key_description">Du hast deinen Kistenschlüssel bereits in mehrere Teile zerlegt. Verteile nun die Schlüsselteile.</string>
+    <string name="card_share_key_progress_description">Verteilte Schlüsselteile: %1$d / %2$d</string>
+    <string name="card_share_key_headline">Verteile deine Schlüsselteile</string>
+    <string name="card_share_key_start">Verteile Schlüsselteile</string>
+
+    <string name="card_warning_description">Es sind ausreichend Schlüsselteile auf diesem Gerät vorhanden, um deinen Kistenschlüssel wiederherzustellen. Wenn du dein Smartphone verlierst, können Diebe deine Kisten öffnen. Verteile deine Schlüsselteile!</string>
+    <string name="card_warning_headline">Achtung</string>
+
+    <string name="contact_chooser_collect_parts_title">Sammle Schlüsselteile</string>
+    <string name="contact_chooser_share_parts_add_item_description">Kontakt hinzufügen</string>
+    <string name="contact_chooser_share_parts_add_item_hint">Name</string>
+    <string name="contact_chooser_share_parts_description_full">Du hast jedem Schlüsselteil eine Person zugewiesen. Es können weiterhin andere Kontakte ausgewählt werden, wenn die aktuelle Person den Schlüsselteil noch nicht erhalten hat.</string>
+    <string name="contact_chooser_share_parts_title">Wähle Kontakte</string>
+
+    <string name="contact_list_header_contacts">Kontakte</string>
+    <string name="contact_list_header_none">Nichts</string>
+    <string name="contact_list_header_receive_email">E-Mail</string>
+    <string name="contact_list_header_receive_print">Papier</string>
+    <string name="contact_list_header_receive_qr">Smartphone</string>
+
+    <string name="create_backup_message">Achtung: Bevor du eine Sicherung anlegen kannst, muss zunächst der Kistenschlüssel zerteilt werden.</string>
+    <string name="create_backup_qr_code_error">Leider ist die wiederhergestellte Sicherung zu groß.</string>
+
+    <string name="dialog_cancel">Abrechen</string>
+
+    <string name="dialog_change_send_method_change_email">Ändern: E-Mail versenden</string>
+    <string name="dialog_change_send_method_change_print">Ändern: QR-Code drucken</string>
+    <string name="dialog_change_send_method_change_qr">Ändern: QR-Code</string>
+    <string name="dialog_change_send_method_deselect">Kontakt abwählen</string>
+    <string name="dialog_change_send_method_show_email">E-Mail senden</string>
+    <string name="dialog_change_send_method_show_print">QR-Code drucken</string>
+    <string name="dialog_change_send_method_show_qr">QR-Code zeigen</string>
+    <string name="dialog_change_send_method_title">Ausgewählte Methode zum Übergeben: %1$s</string>
+
+    <string name="dialog_create_backup_title">Neue Sicherung </string>
+    <string name="dialog_restore_backup_title">Stelle %1$s wieder her</string>
+    <string name="dialog_restore_wrong_secret">Dieser QR-Code stellt keine Box dar oder es kann nicht mit dem Kistenschlüssel geöffnet werden.</string>
+    <string name="dialog_send_method_title">Wie soll der Schlüsselteil übergeben werden?</string>
+    <string name="dialog_share_key_title">Zerlege den Kistenschlüssel</string>
+    <string name="dialog_step_enter_name">Kennzeichnung der Schlüsselteile</string>
+
+    <string name="email">E-Mail</string>
+    <string name="email_address">E-Mail Adresse</string>
+
+    <string name="main_tab_backups">Geheimnis sichern</string>
+    <string name="main_tab_key_parts">Schlüsselteile annehmen</string>
+
+    <string name="overview_backups_empty">Du hast noch keine Geheimnisse gesichert. Bitte wähle den Button unten rechts dafür aus. \nEs gibt eine Menge Geheimnisse:\n • Schlüssel deines E-Mail oder Bitcoin Kontos\n           • Schlüssel einer verschlüsselten Festplatte\n •  ...</string>
+    <string name="overview_secret_parts_empty">Hier werden die Teile des Kistenschlüssels deiner Freunde gesammelt. Wähle den Button unten rechts aus um einen zu scannen. \n\n Deine eigenen Schlüsselteile sollten hier nicht einscannt werden! </string>
+
+    <string name="print_qr_code">Drucken</string>
+    <string name="qr_code">QR-Code</string>
+
+    <string name="qr_fragment_description">%1$s muss diesen QR-Code persönlich einscannen!</string>
+    <string name="qr_fragment_description_restored">Dieser QR-Code enthält deine angelegte Sicherung.</string>
+    <string name="qr_fragment_description_restored_error">Leider kann der QR-Code nicht angezeigt werden.</string>
+    <string name="qr_fragment_description_restored_text">Das ist deine wiederhergestellte Sicherung.</string>
+    <string name="qr_fragment_title">QR-Code</string>
+    <string name="qr_fragment_title_key_part">QR-Code eines Schlüsselteils</string>
+    <string name="qr_fragment_title_restored_text">Wiederhergestellte Sicherung</string>
+    <string name="qr_fragment_transfer_later">Später scannen</string>
+    <string name="qr_fragment_transferred">Erfolgreich eingescannt</string>
+
+    <string name="qr_reader_title">Scanne einen QR-Code</string>
+
+    <string name="secret_part_transfer_error">Hier können nur die Schlüsselteile von anderen abgelegt werden. </string>
+    <string name="secret_part_transferred_success">Schlüsselteil von %1$s erfolgreich übertragen</string>
+
+    <string name="stepper_backup_name_description">Gib einen Namen ein, um die Sicherung später wieder zu finden.</string>
+    <string name="stepper_backup_name_hint">Name</string>
+
+    <string name="stepper_collect_shares_button">Kontakte anzeigen</string>
+    <string name="stepper_collect_shares_description">Du musst die Teile deines Kistenschlüssels sammeln, um deine Sicherung aufzudecken.</string>
+
+    <string name="stepper_import_secret_hint">Geheimnis</string>
+    <string name="stepper_import_secret_keyboard">Oder gib es hier ein:</string>
+    <string name="stepper_import_secret_store_method_email">Scanne den QR-Code, den du per E-Mail versendet hast.</string>
+    <string name="stepper_import_secret_store_method_print">Scanne den QR-Code deiner ausgedruckten Sicherung.</string>
+
+    <string name="stepper_last_step_backup_second_button">Drucken</string>
+    <string name="stepper_last_step_backup_title">Verschlüsselte Sicherung ausgeben</string>
+    <string name="stepper_last_step_button">Später</string>
+    <string name="stepper_last_step_button_cloud">In Cloud speichern</string>
+    <string name="stepper_last_step_collect_shares_button">QR-Code anzeigen</string>
+    <string name="stepper_last_step_collect_shares_second_button">Als Text anzeigen</string>
+    <string name="stepper_last_step_collect_shares_title">Geheimnis exportieren</string>
+    <string name="stepper_last_step_key_second_button">Wähle Empfänger aus</string>
+    <string name="stepper_last_step_key_title">Verteile Schlüsselteile</string>
+
+    <string name="stepper_minimum_parts_description">Wie viele Teile sollen zur Wiederherstellung des Kistenschlüssels nötig sein? (Empfehlung: mehr als die Hälfte der Schlüsselteile)</string>
+    <string name="stepper_minimum_parts_error">Es müssen mindestens %1$d Schlüsselteile benötigt werden.</string>
+
+    <string name="stepper_subtitle_optional">Optional</string>
+
+    <string name="stepper_total_parts_description">Wie vielen Personen möchtest du Schlüsselteile anvertrauen? (Empfehlung ist vorausgewählt)</string>
+    <string name="stepper_total_parts_error">Es können nicht weniger Schlüsselteile erstellt werden, als zur Wiederherstellung benötigt werden sollen.</string>
+
+    <string name="stepper_user_name_description">Damit deine Freunde den Schlüsselteil besser wiedererkennen können, kannst du ihn kennzeichnen.</string>
+    <string name="stepper_user_name_hint">Hinweis</string>
+
+    <string name="onboarding_next">Weiter</string>
+    <string name="onboarding_get_started">Los geht\'s</string>
+    <string name="onboarding_subhead_key_created">Dein Geheimnis wird sicher in einer Kiste abgelegt. Diese Kiste kann bedenkenlos verteilt werden, denn nur der Kistenschlüssel kann sie öffnen.</string>
+    <string name="onboarding_headline_key_created">Verschließe Geheimnisse</string>
+    <string name="onboarding_subhead_share">Du besitzt einen Kistenschlüssel, der zu allen Kisten passt. Er wird wie ein Puzzle zerlegt, deine Freunde bekommen jeweils ein Schlüsselteil.</string>
+    <string name="onboarding_headline_share">Teilen</string>
+    <string name="onboarding_headline_restore">Wiederherstellen</string>
+    <string name="onboarding_headline_backup">Geheimnisse sicher schützen</string>
+    <string name="onboarding_subhead_restore">Wenn du die Geheimnisse wiederherstellen möchtest, wird der Kistenschlüssel benötigt. Viele aber nicht alle Schlüsselteile reichen zum Öffnen einer Kiste aus.</string>
+    <string name="onboarding_subhead_backup">Verliere niemals mehr den Zugang zu deinen Konten und Diensten.</string>
+
+    <string name="vertical_form_stepper_form_continue">Weiter</string>
+
+    <plurals name="contact_chooser_share_parts_description">
+        <item quantity="one">Wer soll einen Teil deines Kistenschlüssels erhalten? Gebe niemals mehrere Teile der gleichen Person! Es ist %1$d Teil übrig.</item>
+        <item quantity="other">Wer soll einen Teil deines Kistenschlüssels erhalten? Gebe niemals mehrere Teile der gleichen Person! Es sind %1$d Teile übrig.</item>
+    </plurals>
+
+    <plurals name="contact_chooser_receive_parts_description">
+        <item quantity="one">Du musst noch %1$d Schlüsselteil sammeln. Scanne den QR-Code von dem Gerät einer Person, einer versendeten E-Mail oder eines Ausdrucks.</item>
+        <item quantity="other">Du musst noch %1$d Schlüsselteile sammeln. Scanne den QR-Code von dem Gerät einer Person, einer versendeten E-Mail oder eines Ausdrucks.</item>
+    </plurals>
+    <string name="dialog_back">Zurück</string>
+    <string name="secret_part_transfer_error_title">Der QR-Code ist kein fremder Schlüsselteil.</string>
+    <string name="snackbar_message_cloud">Das Geheimnis wurde erfolgreich verschlüsselt in der Cloud gespeichert.</string>
+    <string name="snackbar_message_qrscan">Ein QR-Code wurde erfolgreich als Geheimnis eingescannt.</string>
+    <string name="dialog_change_send_method_later">Wähle später aus.</string>
+    <string name="dialog_change_send_method_send">Übergebe</string>
+    <string name="dialog_intent_create_backup_description">Eine neue Sicherheitskopie deines Geheimnisses wird erstellt. Die Sicherheitskopie ist verschlüsselt und wird in der Cloud gespeichert. Gebe einen Namen für das Geheimnis ein:</string>
+    <string name="dialog_intent_create_backup_hint">Eine neue Sicherheitskopie deines Geheimnisses wird erstellt. Die Sicherheitskopie ist verschlüsselt und wird in der Cloud gespeichert. Gebe einen Namen für das Geheimnis ein:</string>
+    <string name="dialog_intent_create_backup_title">Erzeuge eine Sicherheitskopie</string>
+    <string name="dialog_ok">OK</string>
+    <string name="main_tab_todo">TODO</string>
+    <string name="stepper_import_secret_show">Dein importiertes Geheimnis</string>
+    <string name="card_contact_subtitle">Überge ein Schlüsselteil an %1$s.</string>
+</resources>

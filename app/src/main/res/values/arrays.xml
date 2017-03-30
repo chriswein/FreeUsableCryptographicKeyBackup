@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <array name="create_dialog_stepper_titles">
+        <item>Name of the backup</item>
+        <item>Scan a secret</item>
+    </array>
+
+    <array name="create_dialog_stepper_titles_private_key">
+        <item>Select minimum and total key parts</item>
+    </array>
+
+    <array name="restore_backup_stepper_titles">
+        <item>Collect key parts</item>
+        <item>Scan a backup</item>
+    </array>
+
+</resources>

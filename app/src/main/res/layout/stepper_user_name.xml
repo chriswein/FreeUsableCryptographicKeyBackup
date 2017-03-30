@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/step_user_name_padding"
+        android:lineSpacingExtra="@dimen/step_line_spacing"
+        android:text="@string/stepper_user_name_description"/>
+
+    <EditText
+        android:id="@+id/stepper_user_name_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/stepper_user_name_hint"
+        android:inputType="textCapWords"/>
+
+</merge>

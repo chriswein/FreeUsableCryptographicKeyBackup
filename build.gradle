@@ -1,0 +1,58 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        jcenter()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.1.3'
+        classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
+
+        // needed for vertical stepper form
+        classpath 'com.jfrog.bintray.gradle:gradle-bintray-plugin:1.6'
+        classpath 'com.github.dcendents:android-maven-gradle-plugin:1.4.1'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        jcenter()
+
+        // repository for 'QRGen' library needed
+        maven {
+            url "https://jitpack.io"
+        }
+
+        maven {url "https://oss.sonatype.org/content/repositories/snapshots/"}
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+// Define versions in a single place
+ext {
+    // Sdk and tools
+    minSdkVersion = 16
+    targetSdkVersion = 23
+    compileSdkVersion = 23
+    buildToolsVersion = '23.0.3'
+
+    // App dependencies
+    gson = '2.6.2'
+    butterknife = '8.1.0'
+    circleIndicator = '2.4.2@aar'
+    stepper = '0.9.8'
+    supportLibraryVersion = '24.2.0'
+    junitVersion = '4.12'
+    mockitoVersion = '1.10.19'
+    powerMockito = '1.6.2'
+    hamcrestVersion = '1.3'
+    runnerVersion = '0.5'
+    rulesVersion = '0.5'
+    espressoVersion = '2.2.2'
+}

@@ -1,0 +1,7 @@
+include ':app', ':vertical-stepper-form'
+
+include ':SecureKeyBackup'
+project(':SecureKeyBackup').projectDir = new File('SecureKeyBackupAndroid/SecureKeyBackup')
+
+include ':SecureKeyBackupAndroid'
+project(':SecureKeyBackupAndroid').projectDir = new File('SecureKeyBackupAndroid/Lib')
