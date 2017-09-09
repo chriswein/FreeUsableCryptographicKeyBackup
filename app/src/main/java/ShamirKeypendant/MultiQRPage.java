@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package ShamirKeypendant;
  
 import java.util.ArrayList;
@@ -11,6 +6,7 @@ import java.util.Arrays;
 
 /**
  *
+ * This class allows for automatic splitting into multiple {@link QRPage} Objects.
  * @author Christoph
  */
 public class MultiQRPage {
@@ -55,7 +51,7 @@ public class MultiQRPage {
      * @param path "C://.../" End with a Slash (/)
      * @param pages Image files
      */
-    public void SaveAsImages(String path, Bild[] pages) {
+    public static void SaveAsImages(String path, Bild[] pages) {
         int page_id = 0;
         for (Bild page : pages) {
            page.writeToFile(path + "Page_" + page_id + ".png", "png");

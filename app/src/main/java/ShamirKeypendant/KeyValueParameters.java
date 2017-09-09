@@ -1,6 +1,7 @@
 package ShamirKeypendant;
 
 /**
+ * Used for abstracting the local KeyValueImplementation
  * Created by christoph on 24.08.17.
  */
 
