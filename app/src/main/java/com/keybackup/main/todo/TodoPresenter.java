@@ -18,6 +18,7 @@ import com.keybackup.Logger;
 import com.keybackup.Preferences;
 import com.keybackup.R;
 import com.keybackup.Utils;
+import com.keybackup.fullscreenfragments.KeyPendantDialog;
 import com.keybackup.stepperfragments.initkey.InitKeyDialog;
 import com.keybackup.fullscreenfragments.FullscreenFragmentActivity;
 import com.keybackup.main.todo.adapter.TodoAdapter;
@@ -54,6 +55,8 @@ public class TodoPresenter implements TodoContract.UserActionsListener {
         mAdapter.clear();
 
         boolean keySetupFinished = true;
+
+        addMassExportBackupCard(resources,null);
 
         if (!mSecretSharing.keyShared()) {
             final KeyPart[] keyParts = mSecretSharing.getUserKeyParts();
@@ -202,6 +205,62 @@ public class TodoPresenter implements TodoContract.UserActionsListener {
             }
         });
 
+        mAdapter.addItem(item);
+    }
+
+    /**
+     * {@author christoph}
+     */
+    private void addMassExportBackupCard(Resources resources, final Backup backup) {
+        final TodoTextItem item = new TodoTextItem();
+        item.setHeadline("Backup all Parts as Keypendants");
+        // item.setDescription(String.format(mActivity.getString(R.string.card_backup_print_description), backup.getName()));
+
+       /* item.setRemovable(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                backup.removeBackupData(mActivity);
+                mAdapter.removeItem(item);
+            }
+        });*/
+
+        item.setButton(resources, R.string.card_share_key_start, new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                /**
+                 *
+                 */
+                KeyPendantDialog newFragment = KeyPendantDialog.newInstance(5);
+                Utils.openFullscreenDialog(mActivity ,newFragment,"TAG");
+            }
+        });
+
+        /* TODO re-add option to send email
+
+        item.setSecondButton(resources, R.string.card_backup_email_button, new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    mSecretSharing.sendEmail(mActivity, backup);
+                } catch (QrCodeSizeException e) {
+                    e.printStackTrace();
+
+                    mView.showMessage(mActivity.getString(R.string.create_backup_qr_code_error));
+
+                    backup.removeBackupData(mActivity);
+                    mAdapter.removeItem(item);
+                }
+            }
+        });*/
+
+     /*   item.setSecondButton(resources, R.string.card_backup_cloud_button, new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Logger.exportBackupFromCard(true);
+                mSecretSharing.saveToCloud(backup);
+            }
+        });
+*/
         mAdapter.addItem(item);
     }
 
