@@ -159,7 +159,17 @@ public class QRPage {
     }
 
     public interface PageGenerated {
+        /**
+         * Gets invoked when the page 0 is ready
+         * @param bild
+         */
         void PageReady(Bild bild);
+
+        /**
+         * Gets invoked if the implementation supports multiple pages. Invoked after {@method PageReady}
+         * @param bilder
+         */
+        void PagesReady(Bild[] bilder);
     }
 
 

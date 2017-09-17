@@ -6,6 +6,8 @@
 package ShamirKeypendant;
 
 
+import java.math.BigInteger;
+
 /**
  * This class generates a DIN A4 Page containing a QR-Code, ID and URL
  * @author Christoph
@@ -18,6 +20,10 @@ public class SingleIDFullpage extends QRPage{
 
     public SingleIDFullpage(int[] items, int dpi, int dataformat) {
         super(items, dpi, dataformat);
+    }
+
+    public SingleIDFullpage(BigInteger[] items, int dpi, int dataformat){
+        super(items,dpi,dataformat);
     }
 
     @Override
