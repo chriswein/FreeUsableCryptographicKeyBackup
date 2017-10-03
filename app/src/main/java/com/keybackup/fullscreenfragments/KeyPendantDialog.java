@@ -117,7 +117,6 @@ public class KeyPendantDialog extends DialogFragment implements QRPage.PageGener
             KeyPartImp kpi = (KeyPartImp)key;
 
             parts[i] = new BigInteger(kpi.getEncoded());
-
             i++;
         }
         KeyValueParameters kvp = AndroidKeyValueParametersImplementation.getInstance();
